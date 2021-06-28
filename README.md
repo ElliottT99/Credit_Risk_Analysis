@@ -98,7 +98,7 @@ Based on this data, we find the following for high-risk loans:
 * Precision is low but higher than other models, at 9%
 * Sensativity is relatively low, at 70%
 
-##### Summary
+### Summary
 Based on our collected data, we can see that our machine learning models do not do a very good job at detecting pure-positives, our high risk loans, as most models have false positives in the thousands. That is not the worst thing however, as false positives can be looked into and corrected(not that you would want to call thousands of people to sort out discrepencies).
 
 A primary concern with a program looking for and attempting to decide whether a loan is high risk or not is that it does not identify a high risk loan. Of our six models, our Easy Ensemble AdaBoost Classifier model has the least amount of false-negatives, 8 total false-negatives, as well as having the highest accuracy rate amongst our models, at a high 93.2%. If a model has to be recommended out of our 6 tested models, I would have to recommend the Easy Ensemble AdaBoost Classifier model as it has the best numbers in our priority areas. 8 missed incorrectable predictions out of 17,205 total is quite good, and although the ideal system would provide no false-positive/negatives, the system which produces the least amount of incorrectable errors is our next best (additionally, this model has the least amount of false-positives, so that's a plus since that is less data that needs to be validated and reproccessed)
